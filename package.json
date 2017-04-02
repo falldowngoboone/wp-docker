@@ -1,0 +1,19 @@
+{
+  "name": "wp-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass themes/olive-tbl/scss -o themes/olive-tbl/",
+    "postcss": "postcss themes/olive-tbl/style.css -o themes/olive-tbl/style.css",
+    "build:css": "node-sass themes/olive-tbl/scss/style.scss | postcss -o themes/olive-tbl/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "node-sass": "^4.5.0",
+    "postcss-cli": "^3.0.0"
+  }
+}
