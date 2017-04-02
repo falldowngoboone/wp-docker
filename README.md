@@ -1,2 +1,2 @@
 # WP Docker
-A [very] light build work flow for WordPress theme development.
+A _very_ light build work flow for WordPress theme development.
